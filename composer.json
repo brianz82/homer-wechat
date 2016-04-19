@@ -1,0 +1,31 @@
+{
+  "name": "homer/wechat",
+  "version": "1.0.0",
+  "description": "Wechat integration",
+  "license": "proprietary",
+  "type": "library",
+
+  "autoload": {
+    "files": [
+      "src/Support/helpers.php"
+    ],
+    "psr-4": {
+      "Homer\\Wechat\\": "src/"
+    }
+  },
+
+  "config": {
+    "preferred-install": "dist"
+  },
+
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+
+  "require": {
+    "guzzlehttp/guzzle": "^6.1"
+  },
+
+  "require-dev": {
+    "phpspec/phpspec": "^2.5"
+  }
+}

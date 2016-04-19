@@ -1,0 +1,7 @@
+/vendor
+
+# mac files
+.DS_STORE
+
+# intellij generated meta files
+.idea
